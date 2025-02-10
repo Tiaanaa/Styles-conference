@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../assets/styles/index.css">
+    <link rel="stylesheet" href="../assets/styles/register.css">
+</head>
+<body>
+    <header class="nav">
+        <h1>
+          STYLES <br />
+          CONFERENCE
+        </h1>
+        <div class="date">
+          <h3>August 24-26-Chicago, IL</h3>
+          <nav>
+            <a href="../index.html" target="_blank">HOME</a>
+            <a href="../index.html" target="_blank">SPEAKERS</a>
+            <a href="../index.html" target="_blank">SCHEDULE</a>
+            <a href="venue.html" target="_blank">VENUE</a>
+            <a href="#">REGISTER</a>
+          </nav>
+        </div>
+      </header>
+      <div class="intro">
+        <p class="intro-heading">Register</p>
+        <p class="i-details">Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. <br> Conference passes only cost $99, one of the best values you'll find.</p>
+      </div>
+      <section class="reg-details">
+        <div class="reg-text">
+            <p class="d-heading">Purchase a Conference Pass</p>
+            <p class="details">$99 PER PASS</p>
+            <p class="details">Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we'll follow up and provide a receipt for your purchase. See you soon!</p>
+            <p class="d-heading">Why Attend?</p>
+            <ul class="details">
+                <li>Over twenty world-class speakers</li>
+                <li>One full day of workshops and two full days of presentations</li>
+                <li>Hosted at The Chicago Theatre, a historical landmark</li>
+                <li>August in Chicago is simply amazing</li>
+            </ul>
+        </div>
+        <div>
+            <form action="post">
+                <label class="details" for="name">Name</label><br>
+                <input type="text" name="name" placeholder="Full name" required><br>
+                <label class="details" for="email">Email</label><br>
+                <input type="email" name="email" required placeholder="Email address"><br>
+                <label class="details" for="passes">Number of Passes</label><br>
+                <select name="passes" id="select" required>
+                  <option value="one">1</option>
+                  <option value="two">2</option>
+                  <option value="three">3</option>
+                </select>
+                <label class="details" for="comment">Comment</label><br>
+                <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                <button type="submit" id="purchase">PURCHASE</button>
+            </form>
+        </div>
+      </section>
+      <footer>
+        <div class="copy">
+          <p>© Styles Conference</p>
+        </div>
+        <div class="link">
+          <a href="../index.html">Home</a>
+          <a href="venue.html" target="_blank">Venue</a>
+          <a href="#">Register</a>
+        </div>
+        
+      </footer>
+</body>
+</html>

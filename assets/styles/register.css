@@ -1,0 +1,95 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+    background: linear-gradient(to right, rgb(161, 211, 176), rgb(246, 241, 211));
+    padding: 3rem;
+  }
+.intro-heading{
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    color: rgb(100, 136, 128);
+    font-size: 2.5em;
+  }
+.i-details{
+    color:rgb(136, 136, 136) ;
+    text-align: center;
+    width: 60em;
+    font-size: 1.5em;
+  }
+.reg-details{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+.reg-text{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 19rem;
+  }
+.d-heading{
+    color: rgb(100, 136, 128);
+    font-size: 1.5rem;
+  }
+.details{
+    color: rgb(136, 136, 136);
+    margin-bottom: 0.5rem; 
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-between;
+    height: 25rem;
+  }
+label{
+    color: #648880;
+    margin-bottom: 0.5rem;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+input{
+    color: black;
+    padding: 8px;  
+    border: 2px inset rgb(118, 118, 118);
+  }
+input:hover{
+  transform: scale(1.1);
+}
+textarea{
+  color: black;
+  padding: 20px;  
+  border: 2px inset rgb(118, 118, 118);
+}
+textarea:hover{
+  transform: scale(1.1);
+}
+#select{
+  color: black;
+  padding: 8px;  
+  border: 2px inset rgb(118, 118, 118);
+  width: 3rem;
+}
+#select:hover{
+  transform: scale(1.1);
+}
+#purchase{
+  align-self: flex-start;
+  padding: 0.8rem;
+  width: 9rem;
+  background-color: #648880;
+  color: white;
+  border-radius: 0.2rem;
+  border: none;
+  margin: 4px;
+}
+#purchase:hover{
+  opacity: 0.7;
+}
