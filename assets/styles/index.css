@@ -135,3 +135,89 @@ footer{
   padding: 2% 15%;
   margin: auto;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .top, .nav {
+    padding: 2% 8%;
+  }
+
+  .card-details {
+    width: 80%;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  nav {
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .date {
+    align-items: flex-start;
+  }
+
+  .card-details {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .brief {
+    margin: 20px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top, .nav {
+    padding: 5% 5%;
+  }
+
+  .register {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .link {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -93,3 +93,80 @@ textarea:hover{
 #purchase:hover{
   opacity: 0.7;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .i-details {
+    width: 90%;
+    font-size: 1.3em;
+  }
+
+  .reg-details {
+    width: 90%;
+  }
+
+  form {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-heading {
+    font-size: 2em;
+  }
+
+  .i-details {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 0 10px;
+  }
+
+  .reg-details {
+    flex-direction: column;
+    gap: 2rem;
+    width: 95%;
+  }
+
+  .reg-text, form {
+    flex-basis: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  #purchase {
+    width: 100%;
+    align-self: stretch;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    padding: 2rem 1rem;
+  }
+
+  .intro-heading {
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  .i-details {
+    font-size: 1em;
+  }
+
+  .d-heading {
+    font-size: 1.2rem;
+  }
+
+  label, input, textarea, #select {
+    font-size: 1em;
+  }
+
+  input, textarea, #select {
+    width: 100%;
+  }
+
+  #purchase {
+    font-size: 1em;
+    padding: 0.6rem;
+  }
+}
